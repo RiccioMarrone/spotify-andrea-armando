@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121212;
+    font-size: 16px;
+    min-height: 100vh;
+}
+
+/*Nav Bar*/
+
+nav{
+    height: auto;
+    min-height: 10em;
+    font-size: 10px;
+    background-color: #000000;
+}
+/* Nav TOP */
+.navTop{
+    z-index: 99;
+    height: 4.5em;
+    font-size: 13px;
+    background-color: #121212;
+    
+}
+.nav-btn-music{
+    background-color: #212121;
+}
+.p-btn-home{
+    font-size: 1em;
+    font-weight: 100;
+}
+.circle-profile{
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+/* Icone Nav */
+
+.icon{
+    font-size: 2.2em;
+    color: white;
+}
+
+/* Titolo icone nav */
+
+.p-icon-nav{
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/* header-home */
+
+.header-home{
+    position: relative;
+    margin-top: 5.5em;
+    
+    font-size: 15px;
+    height: auto;
+    min-height: 10em;
+
+
+}
+
+.img-header-home{
+    width: 4em;
+}
+.p-header-home{
+    color: white;
+    font-size: 0.65em;
+}
+
+.box-header-home-playlist{
+    width: 45%;
+    height: 4em;
+    background-color: #212121;
+
+}
+
+/* Section home */
+
+.main-custom{
+    position: relative;
+    
+    font-size: 18px;
+}
+.section-preferiti-home{
+    min-height: 5em;
+}
+.p-section__slider-home{
+    font-size:1.2em;
+    font-weight: 600;
+    color: white;
+}
+.img-preferiti-home{
+    height: 7em;
+    width: 7em;
+    min-width: 7em;
+}
+.p-descrizione-preferiti-home{
+    color: white;
+    font-size: 0.7em;
+    font-weight: 100;
+    max-width: 7em;
+    margin-top: 1em;
+    height: auto;
+}
+
+@media screen and (min-width:768px){
+   
+     body{
+        font-size: 18px;
+     }
+}
