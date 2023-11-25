@@ -4,8 +4,13 @@ import { useParams } from "next/navigation";
 
 const Brano = () => {
   const search = useParams();
+  console.log(search.slug);
 
-  return <div className="text-white">{search.slug}</div>;
+  return (
+    <>
+      <header className="header-dettaglio h-60"></header>
+    </>
+  );
 };
 
 export default Brano;

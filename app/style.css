@@ -102,14 +102,25 @@ nav{
     width: 7em;
     min-width: 7em;
 }
+.img-mix{
+    box-shadow: 0px 0.4em 8px blue;
+}
 .p-descrizione-preferiti-home{
     color: white;
     font-size: 0.7em;
     font-weight: 100;
     max-width: 7em;
+    max-height: 3.5em;
     margin-top: 1em;
     height: auto;
+    overflow-y: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    opacity: 0;
+    background-color: #000000;
+  }
 
 @media screen and (min-width:768px){
    

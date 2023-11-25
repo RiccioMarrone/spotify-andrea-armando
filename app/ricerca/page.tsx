@@ -1,14 +1,8 @@
-import React from 'react'
-
+import React from "react";
+import WorkInProgress from "../atoms/WorkInProgress";
 
 const Ricerca = () => {
+  return <WorkInProgress />;
+};
 
-  return (
-    <div className='text-white'>
-
-      
-    </div>
-  )
-}
-
-export default Ricerca
+export default Ricerca;
