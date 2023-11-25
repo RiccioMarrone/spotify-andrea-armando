@@ -42,7 +42,7 @@ const Brano = () => {
 
   return (
     <>
-      <header className="header-dettaglio h-auto flex flex-col md:text-base">
+      <header className="lg:hidden header-dettaglio h-auto flex flex-col md:text-base">
         {/* Back */}
         <Link href="/" className="h-auto w-full relative  p-4 md:p-8">
           <IoIosArrowBack className="text-white icon-back " />
@@ -52,7 +52,7 @@ const Brano = () => {
         <Header />
       </header>
       {/* Section PlayList */}
-      <main className="relative min-h-screen h-auto mt-5 md:mt-10 flex flex-col">
+      <main className=" lg:hidden relative min-h-screen h-auto mt-5 md:mt-10 flex flex-col">
         <section className=" h-auto relative flex flex-col">
           <div className="h-auto flex flex-col ps-3 gap-1 md:gap-3">
             {/* Creato per */}
