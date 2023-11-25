@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import { Spinner } from "flowbite-react";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
-import ErrorPage from "./atoms/errorPage";
+import ErrorPage from "./atoms/ErrorPage";
 
 const ServerHome = dynamic(
   () => import("./server/ServerHome").then((mod) => mod.default),
